@@ -1,0 +1,21 @@
+{
+  "name": "tailwindcss-jit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "postcss src/css/tailwind.css -o ./css/tailwind.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.10",
+    "tailwindcss": "^2.1.1",
+    "postcss-cli": "^8.3.1",
+    "@tailwindcss/jit": "^0.1.18"
+  },
+  "dependencies": {
+  }
+}

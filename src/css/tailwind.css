@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .menu-list-container {
+    @apply 
+  }
+  .menu-list {
+    @apply h-full px-8 md:px-5 lg:px-6 xl:px-8 py-2 flex items-center hover:bg-gray-600 md:hover:bg-gray-500
+  }
+  .search-input {
+    @apply border-b-2 border-white w-10/12 md:w-8/12 bg-transparent text-center text-white placeholder-gray-100 text-2xl py-2 px-4 focus:outline-none
+  }
+  .tag {
+    @apply inline-block bg-gray-500 px-3 py-2 rounded-sm text-center text-[10px] font-semibold uppercase cursor-default;
+  }
+  .label-tag {
+    @apply px-3 py-2 text-xs rounded-sm border dark:text-white border-gray-500 dark:border-white text-gray-500 font-bold uppercase hover:bg-gray-500  hover:text-white cursor-pointer transition duration-75
+  }
+  .heading-postingan-populer {
+    @apply absolute -top-5 -left-1 text-[10px] font-semibold px-3 py-2 text-white bg-gray-600 dark:bg-gray-500 border-[3px] border-white lg:border-gray-100 dark:border-gray-600 rounded-md transition duration-300
+  }
+  .postingan-populer {
+    @apply pl-3 pr-8 py-3 hover:bg-gray-100 dark:hover:bg-gray-600 m-1 rounded cursor-pointer
+  }
+  .button-about {
+    @apply mt-8 rounded-full border border-gray-500 dark:border-white px-4 py-3 text-sm focus:outline-none hover:bg-gray-500 dark:hover:bg-gray-600 dark:text-white hover:text-white transition duration-75
+  }
+}
